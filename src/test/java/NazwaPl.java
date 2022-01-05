@@ -15,6 +15,7 @@ public class NazwaPl {
 
     @Test
     public void start() {
+
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
