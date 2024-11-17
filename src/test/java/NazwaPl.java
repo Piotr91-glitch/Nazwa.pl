@@ -29,7 +29,7 @@ public class NazwaPl {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.name("login")));
 
         WebElement login = driver.findElement(By.name("login"));
-        login.sendKeys("piotrpobozniak");
+        login.sendKeys("MarcinNajman");
 
         WebElement haslo = driver.findElement(By.name("pass"));
         haslo.sendKeys("Muszynianka91#");
@@ -43,22 +43,22 @@ public class NazwaPl {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("firstName")));
 
         WebElement imie = driver.findElement(By.id("firstName"));
-        imie.sendKeys("Piotr");
+        imie.sendKeys("marcin");
 
         WebElement nazwisko = driver.findElement(By.id("lastName"));
-        nazwisko.sendKeys("Pobożniak");
+        nazwisko.sendKeys("Najman");
 
         WebElement ulica = driver.findElement(By.id("street"));
         ulica.sendKeys("Korabnicka");
 
         WebElement nrLokalu = driver.findElement(By.id("localNo"));
-        nrLokalu.sendKeys("8");
+        nrLokalu.sendKeys("128");
 
         WebElement kodPocztowy = driver.findElement(By.id("postCode"));
-        kodPocztowy.sendKeys("32-050");
+        kodPocztowy.sendKeys("31-040");
 
         WebElement miejscowosc = driver.findElement(By.id("place"));
-        miejscowosc.sendKeys("Skawina");
+        miejscowosc.sendKeys("Krakow");
 
         WebElement wojewodztwo = driver.findElement(By.id("provinceId"));
         Select wybierzWojewodztwo = new Select(wojewodztwo);
@@ -72,7 +72,7 @@ public class NazwaPl {
         email.sendKeys("piotrpobozniak91@gmail.com");
 
         WebElement KontaktowyTelefonKomórkowy = driver.findElement(By.id("phone"));
-        KontaktowyTelefonKomórkowy.sendKeys("784027030");
+        KontaktowyTelefonKomórkowy.sendKeys("78401230");
 
         WebElement zaznaczWszystko= driver.findElement(By.id("acceptAll"));
         zaznaczWszystko.click();
